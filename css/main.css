@@ -1,4 +1,5 @@
 html {
+  background-color: white;
   box-sizing: border-box;
   color: #2f2d13;
   line-height: 1.5;
@@ -29,7 +30,9 @@ h1 {
 
 nav ul {
   margin: 0;
-  padding: .6em;
+  padding: .6em 0;
+  padding-bottom: 5px;
+  padding-top: 0;
   text-align: center;
   list-style-type: none;
   font-family: georgia, serif;
@@ -44,8 +47,9 @@ nav a {
   display: inline-block;
   width: auto;
   margin: 0;
-  padding: .2em .75em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
+  font-size: 1.125em;
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
@@ -56,7 +60,7 @@ a:hover {
   background-color: #cc1465;
 }
 
-section {
+main {
   padding: 0 .75em;
 }
 
@@ -73,19 +77,36 @@ img {
 }
 
 p {
+  display: block;
   font-family: Georgia, serif;
-  font-size: 1.125rem;
-  margin: 0;
+  font-size: 1rem;
+  padding: .75em;
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 footer {
   background-color: #ffe500;
-  font-size: .75rem;
   text-align: center;
-  padding: 1em;
-  margin-top: 0;
+  padding: .75em 0;
+}
+
+small {
+  font-family: Georgia;
 }
 
 .nav .current {
   background-color: #b20953;
+}
+
+.intro {
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.berries {
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
